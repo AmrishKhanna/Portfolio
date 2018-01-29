@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+ 
+  <!-- Modules -->
+  <script type="text/javascript" src="js/action.js"></script>
+  <script src="js/portfolio.js"></script>
+  <script src="js/controllers/DataController.js"></script>
+  <script src="js/controllers/ProjectController.js"></script>
+  <script src="js/controllers/SkillController.js"></script>
+</head>
+
+<body class="brown lighten-5" ng-app="Portfolio">
+	<div class="navbar-fixed">
+		<nav class="black"> <!--Navigation Bar-->
+			<div class="nav-wrapper">
+				<a class="logo teal-text text-lighten-2 z-depth-5">Portfolio</a>
+				<a href="#" data-activates="small_screen" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a id="hBtn" href="#/home" onClick="window.location.reload();" class="waves-effect waves-light btn teal z-depth-5">Home</a></li>
+					<li><a id="sBtn" href="#/skills" onClick="window.location.reload();" class="waves-effect waves-light btn teal z-depth-5">Skills</a></li>
+					<li><a id="pBtn" href="#/projects" onClick="window.location.reload();" class="waves-effect waves-light btn teal z-depth-5">Projects</a></li>
+					<li><a id="cBtn" href="#/contact" onClick="window.location.reload();" class="waves-effect waves-light btn teal z-depth-5">Contact</a></li>
+				</ul>
+			</div>
+			<div class="divider teal"></div>
+		</nav>
+	</div>
+	<ul id="small_screen" class="side-nav teal lighten-5">
+		<li><a href="#/home" onClick="window.location.reload();" class="teal-text text-darken-3">Home</a></li>
+		<li><a href="#/skills" onClick="window.location.reload();" class="teal-text text-darken-3">Skills</a></li>
+		<li><a href="#/projects" onClick="window.location.reload();" class="teal-text text-darken-3">Projects</a></li>
+		<li><a href="#/contact" onClick="window.location.reload();" class="teal-text text-darken-3">Contact</a></li>
+	</ul>
+	
+	<main>
+	<div ng-view></div>
+	</main>
+	
+	<footer class="page-footer brown">
+	  <div class="container">
+		<div class="row">
+		  <div class="col l6 s12">
+			<h5 class="white-text">Thanks for Visiting</h5>
+			<p class="grey-text text-lighten-4">Please visit contact page for my phone number or email.</p>
+		  </div>
+		  <div class="col l4 offset-l2 s12">
+			<h5 class="white-text">Links</h5>
+			<ul>
+			  <li><a class="grey-text text-lighten-3" href="#/home" onClick="window.location.reload();window.location.reload();">Home</a></li>
+			  <li><a class="grey-text text-lighten-3" href="#/skills" onClick="window.location.reload();">Skills</a></li>
+			  <li><a class="grey-text text-lighten-3" href="#/projects" onClick="window.location.reload();">Projects</a></li>
+			  <li><a class="grey-text text-lighten-3" href="#/contact" onClick="window.location.reload();">Contact</a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="footer-copyright">
+		<div class="container">
+		Personal website developed using Materialize and Angular JS
+		</div>
+	  </div>
+	</footer>
+</body>
+</html>

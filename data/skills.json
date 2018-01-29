@@ -1,0 +1,28 @@
+{
+	"certi" : [
+		{ 
+			"name" : "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+			"img" : "certificate1.jpg",
+			"link" : "https://www.coursera.org/account/accomplishments/certificate/XQBDYNGFKY5W"
+		},
+		{ 
+			"name" : "Neural Networks and Deep Learning",
+			"img" : "certificate2.jpg",
+			"link" : "https://www.coursera.org/account/accomplishments/certificate/Q2VCRSKXLZSV"
+		},
+		{ 
+			"name" : "Structuring Machine Learning Projects",
+			"img" : "certificate3.jpg",
+			"link" : "https://www.coursera.org/account/accomplishments/certificate/8U3LF2L54A4B"
+		}
+	],
+	"skills" : {
+		"Languages" :  "C++, Python, Java",
+		"Deep Learning" : "Keras, TensorFlow",
+		"Computer Vision" : "Matlab, ROS, OpenCV, OpenGL",
+		"Databases" : "MySQL, MongoDB",
+		"Cloud" : "Amazon AWS, Google Cloud Platform, Azure",
+		"SDK" : "Kinect, Tango, RealSense, TBB, Android",
+		"Web" : "HTML5, CSS, AngularJS, Materialize, Bootstrap, D3.js"
+	}
+}

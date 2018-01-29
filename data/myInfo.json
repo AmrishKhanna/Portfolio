@@ -1,0 +1,88 @@
+{
+	"name": "AMRISH KHANNA CHANDRASEKARAN",
+	"position": "Software Development Engineer",
+	"employer": "Intel Corporation",
+	"location": "Austin,TX",
+	"address": "5701 South Mopac Expressway Apt 621, Austin Texas 78749",
+	"email": "amrishkhanna.developer@gmail.com",
+	"phno": "+1 682-559-3107",
+	"linkedin": "https://www.linkedin.com/in/amrishkhannac/",
+	"summary": [
+		"One and half year experience as a Software Development Engineer",
+		"Highly organized and efficient in fast - paced multitasking environments",
+		"Able to prioritize effectively to accomplish objectives with creativity and enthusiasm",
+		"Self learnt and flexible to work with current technology trend"
+	],
+	"education": [{
+			"name": "Master of Science - Computer Science",
+			"college": "University of Texas at Arlington",
+			"status": "Graduated",
+			"year": "August 2016",
+			"gpa": "4.0/4.0",
+			"courses": [
+				"Design and Analysis of Algorithms",
+				"Intelligent Systems",
+				"Computer Networks",
+				"Software Engineering I",
+				"Cloud Computing",
+				"Distributed System",
+				"Machine Learning",
+				"Secure Programming",
+				"Robotics",
+				"Database II"
+			]
+		},
+		{
+			"name": "Bachelor of Engineering - Computer Science",
+			"college": "Sona College of Technology",
+			"status": "Graduated",
+			"year": "May 2014",
+			"gpa": "3.7/4.0",
+			"courses": [
+				"Data Structures and algorithms",
+				"Computer Architecture",
+				"Microprocessor and Microarchitecture",
+				"Information Security",
+				"Artificial Intelligence",
+				"Data Mining and Warehousing",
+				"Software Testing",
+				"Database Management",
+				"Theory of Computation",
+				"Operating Systems"
+			]
+		}
+	],
+	"work": [{
+			"title": "Software Development Engineer",
+			"year": "Nov 2016 – Current",
+			"company": "Intel Corporation",
+			"detail": [
+				"Develop parallel runtime designer and analyzer tool using TBB Flow Graph and C++ language.",
+				"Test, maintain and recommend software improvements to ensure strong functionality and optimization.",
+				"Support customers in performance and scaling tests for parallel processing",
+				"Manage and refactor certain components of our tool and add features if necessary"
+			],
+			"technology": "C++, TBB Flow Graph, Boost BGL , QT,  GraphViz, Deep Learning"
+		},
+		{
+			"title": "Graduate Intern",
+			"year": "Aug 2015– May 2016",
+			"company": "Intel Corporation",
+			"detail": [
+				"Develop proof of concept for Intel Real Sense 3D Depth Camera in Android and Windows platform.",
+				"Developed samples for Real Sense Camera SDK.",
+				"Responsible for Performance testing and Accuracy measurements to compare the capabilities of Real Sense with other devices"
+			],
+			"technology": "Android SDK, Real Sense SDK, Tango SDK, C++, Image Processing "
+		},
+		{
+			"title": "Research Intern",
+			"year": "Jun 2015 – Sep 2015",
+			"company": "University of Texas Research Institue",
+			"detail": [
+				"Developed an algorithm to identify the person using kinect skeleton framework based on their Gait Pattern"
+			],
+			"technology": "C#, Kinect SDK"
+		}
+	]
+}

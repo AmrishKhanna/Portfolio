@@ -1,0 +1,79 @@
+
+<div>		
+	<div class="section navSeparator"> <!--Section holding image and title-->
+		<div class="container transparent">
+			<div class="row">
+				<div class="col col1 s12 m8 offset-m2 l8 offset-l2">
+					<div class="card z-depth-5">						
+						<div class="card-content black-text">
+							<div class = "row transparent">
+								<div class = "col s12 m6 l6">
+									<div class="divider transparent" style="padding-top:30px"></div>
+									<div class="divider"></div>
+									<span class="card-title left-align teal-text text-darken-3"><h5>{{name}}</h5></span>
+									
+									<p>
+									<h6 class="left-align">
+									{{position}}<br>
+									{{employer}}<br>
+									{{location}}<br>
+									</h6>
+									</p>
+									<div class="divider"></div>
+								</div>
+								<div class = "col s12 m6 l6">
+									<img class="materialboxed responsive-img fill-image" src="images/amrish.jpg">
+								</div>
+								
+							</div>
+							
+							<h6 class="teal-text text-darken-3">About Me</h6>
+							<div class="divider"></div>
+							<div ng-repeat="point in summary">
+								<ul><li><span>{{point}}</span></li></ul>
+							</div>	  
+						</div>
+					</div>							
+					<div id = "experience" class="card z-depth-5">						
+						<div class="card-content black-text">
+							<h6 class="teal-text text-darken-3">Experience</h6>
+							<div class="divider"></div>
+							<div ng-repeat="w in work">
+								<h6 class="teal-text text-darken-3">{{w.title}}</h6>
+								<div class="left"><h6>{{w.company}}</h6></div>
+								<div class="right"><h6>{{w.year}}</h6></div>
+								<br><br>
+								<h6 class="teal-text text-darken-3">Technology</h6>
+								<h6>{{w.technology}}</h6><br>
+								<h6 class="teal-text text-darken-3">Responsibilities</h6>
+								<div ng-repeat="d in w.detail">
+									<ul><li><span>{{d}}</span></li></ul>
+								</div>
+								<div class="divider"></div>
+							</div>
+						</div>
+					</div>							
+					<div id = "education" class="card z-depth-5">						
+						<div class="card-content black-text">
+							<h6 class = "teal-text text-darken-3">Education</h6>
+							<div class="divider"></div>
+							<div ng-repeat="e in education">
+								<h6 class="teal-text text-darken-3">{{e.name}}</h6>
+								<div class="left"><h6>{{e.college}}</h6></div>
+								<div class="right"><h6>{{e.status}} on {{e.year}}</h6></div>
+								<br>
+								<h6>GPA : {{e.gpa}}</h6>
+								<h6 class="teal-text text-darken-3">Courses</h6>
+								<div ng-repeat="c in e.courses">
+									<li><span>{{c}}</span></li>
+								</div>
+								<br>
+								<div class="divider"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
